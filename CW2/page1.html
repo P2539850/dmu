@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banksy</title>
+    <h1>Banksy</h1>
+  </head>
+<link rel="stylesheet" href="css/style.css"/>
+  <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+  }
+  p2 {
+  font-size: 12px;
+}
+
+body {
+  background-color: grey;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+  </style>
+  </head>
+  <body>
+  <ul>
+
+    <li><a class="active" href="page1.html">Home</a></li>
+    <li><a href="page2.html">About Him</a></li>
+    <li><a href="page3.html">Gallery</a></li>
+      <li><a href="page4.html">Contact Us</a></li>
+  </ul>
+  <h1>Home<h1>
+
+  <p>Banksy The Street Artist</p>
+
+  <button onclick="myFunction()">Toggle dark mode</button>
+
+  <script>
+  function myFunction() {
+ var element = document.body;
+ element.classList.toggle("dark-mode");
+
+}
+  </script>
+
+
+<br>
+    <video
+    <video width="50%" poster="images/banksy-working.jpg" controls>
+    <source src="video/who is Banksy.mp4" type="video/mp4" />
+    <source src="video/who is Banksy.webm" type="video/webm" />
+    Sorry, your browser does not support the video tag. Downlaod the video the video tag. Download the video.
+  </video>
+
+
+
+  <div class="footer">
+    <p2>© BANKSYCOPYRIGHT2021</p2>
+  </div>

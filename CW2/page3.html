@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banksy</title>
+    <h1>Banksy</h1>
+  </head>
+  <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+p2 {
+font-size: 12px;
+}
+
+body {
+  background-color: grey;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+  </style>
+  </head>
+  <body>
+
+  <ul>
+    <li><a class="active" href="Page1.html">Home</a></li>
+    <li><a href="page2.html">About Him</a></li>
+    <li><a href="page3.html">Gallery</a></li>
+      <li><a href="page4.html">Contact Us</a></li>
+  </ul>
+  <h1>Gallery<h1>
+
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <br>
+
+    <script>
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+
+  }
+    </script>
+
+
+    <div class="footer">
+      <p2>© BANKSYCOPYRIGHT2021</p2>
+    </div>
+
+
+</body>
+</html>
+<class="aligncenter">
+<a href="page5.html">
+    <img src="images/hoopgirl.jpg" alt="logo" class="Center" width="700" height="400">
+    <a href="Page6.html">
+    <img src="images/prisoner.jpg" alt="logo" class="Center" width="700" height="400">
+      <a href="Page7.html">
+    <img src="images/rage.jpg" alt="logo" class="Center" width="700" height="400">
+    <a href="Page8.html">
+    <img src="images/valentines day.jpg" alt="logo" class="Center" width="700" height="400">
+    <a href="Page9.html">
+    <img src="images/zebra.jpg" alt="logo" class="Center" width="700" height="400">
+    <a href="Page10.html">
+    <img src="images/child.jpg" alt="logo" class="Center" width="700" height="400">
+    <br>
